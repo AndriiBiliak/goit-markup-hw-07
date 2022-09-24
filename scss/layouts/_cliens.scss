@@ -1,14 +1,13 @@
-.cliens{
-    &_list{
+.cliens {
+  &__list {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-basis: calc((100% - 30px) / 6);
     cursor: pointer;
-    }
+  }
 
-
-    &__link {
+  &__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,15 +17,15 @@
     border: 1px solid var(--icons-color);
     border-radius: 4px;
     transition: color var(--animation), background-color var(--animation);
-}
+  }
 
-    &__icons {
+  &__icons {
     transition: fill var(--animation);
-}
+  }
 
-    &__link:hover,
-    &__link:focus {
+  &__link:hover,
+  &__link:focus {
     fill: var(--accent-color);
     border-color: var(--accent-color);
-}
+  }
 }
