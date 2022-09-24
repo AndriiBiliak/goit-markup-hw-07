@@ -1,4 +1,7 @@
-body {
-  background: red($color: #000000);
-}
-@import '/scss/util/_var';
+@import './utils/module';
+
+@import './base/module';
+
+@import './components/module';
+
+@import './layouts/module';
